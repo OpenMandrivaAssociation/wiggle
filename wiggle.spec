@@ -1,6 +1,6 @@
 %define	name wiggle
 %define	version	0.6
-%define	release	4mdk
+%define	release	%mkrel 4
 
 Summary: 	A tool for applying patches with conflicts
 Name: 		%{name}
