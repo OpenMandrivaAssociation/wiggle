@@ -11,7 +11,6 @@ Group:		Text tools
 Source:		http://cgi.cse.unsw.edu.au/~neilb/source/wiggle/wiggle-%{version}.tar.bz2
 #Patch:		wiggle-p.patch.bz2
 Url:		http://cgi.cse.unsw.edu.au/~neilb/source/wiggle
-Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	groff-for-man
 
 %description
