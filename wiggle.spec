@@ -25,7 +25,7 @@ unresolvable conflict.  Such a conflict will look like:
 %prep
 %setup -q
 #patch -p1
-patch1 -p1
+%patch1 -p1
 bzip2 DOC/diff.ps
 
 %build
