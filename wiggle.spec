@@ -10,6 +10,7 @@ License: 	GPL
 Group:		Text tools
 Source:		http://cgi.cse.unsw.edu.au/~neilb/source/wiggle/wiggle-%{version}.tar.bz2
 #Patch:		wiggle-p.patch.bz2
+Patch1:		wiggle-fix-build.patch
 Url:		http://cgi.cse.unsw.edu.au/~neilb/source/wiggle
 BuildRequires:	groff-for-man
 
@@ -24,6 +25,7 @@ unresolvable conflict.  Such a conflict will look like:
 %prep
 %setup -q
 #patch -p1
+patch1 -p1
 bzip2 DOC/diff.ps
 
 %build
