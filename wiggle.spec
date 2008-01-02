@@ -12,6 +12,7 @@ Source:		http://cgi.cse.unsw.edu.au/~neilb/source/wiggle/wiggle-%{version}.tar.b
 #Patch:		wiggle-p.patch.bz2
 Patch1:		wiggle-fix-build.patch
 Url:		http://cgi.cse.unsw.edu.au/~neilb/source/wiggle
+Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	groff-for-man
 
 %description
