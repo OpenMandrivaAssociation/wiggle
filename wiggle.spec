@@ -1,6 +1,6 @@
 %define	name wiggle
 %define	version	0.6
-%define	release	%mkrel 7
+%define	release	%mkrel 8
 
 Summary: 	A tool for applying patches with conflicts
 Name: 		%{name}
