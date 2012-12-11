@@ -47,3 +47,32 @@ install -m644 wiggle.1 %buildroot/%{_mandir}/man1/wiggle.1
 %attr (755,root,root) %{_bindir}/wiggle
 %{_mandir}/man1/wiggle.1*
 
+
+
+%changelog
+* Thu Jun 14 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.9-1
++ Revision: 805628
+- version update 0.9
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 0.6-8mdv2010.0
++ Revision: 434752
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 0.6-7mdv2009.0
++ Revision: 261984
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 0.6-6mdv2009.0
++ Revision: 255989
+- rebuild
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Thu Dec 20 2007 Thierry Vignaud <tv@mandriva.org> 0.6-4mdv2008.1
++ Revision: 135619
+- patch 1: fix build
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import wiggle
+
