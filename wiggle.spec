@@ -1,6 +1,6 @@
 %define	name wiggle
 %define	version	0.9
-%define	release	1
+%define release	2
 
 Summary: 	A tool for applying patches with conflicts
 Name: 		%{name}
