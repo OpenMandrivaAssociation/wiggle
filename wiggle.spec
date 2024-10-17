@@ -10,7 +10,7 @@ License: 	GPL
 Group:		Text tools
 Source0:	http://neil.brown.name/wiggle/%{name}-%{version}.tar.gz
 Patch1:		wiggle-fix-build.patch
-Url:		http://neil.brown.name/wiggle
+Url:		https://neil.brown.name/wiggle
 BuildRequires:	groff-for-man
 BuildRequires:	ncurses-devel
 
